@@ -10,6 +10,11 @@ npm run dev      # http://localhost:5173
 npm run build    # production build in dist/
 ```
 
+## Deploy
+
+Hosted on Netlify. Every push to `main` rebuilds and publishes the site
+automatically. Build settings live in `netlify.toml`.
+
 ## Editing content
 
 All text lives in `src/data/`. Edit those files, not the components.
