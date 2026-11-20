@@ -13,7 +13,7 @@ export default function ProjectGroup({ label, count, projects, columns, offset =
         </Typography>
         <Box sx={(t) => ({ flexGrow: 1, height: 1, bgcolor: t.palette.custom.border, display: { xs: 'none', sm: 'block' } })} />
         <Typography sx={{ color: 'text.secondary', fontWeight: 600, fontSize: '0.9rem', whiteSpace: 'nowrap' }}>
-          {count} projects
+          {count} featured
         </Typography>
       </Reveal>
       <Box
